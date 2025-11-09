@@ -8,6 +8,7 @@ internal class Program
     private static void Main()
     {
         LoadGame();
+        Console.WriteLine($"Current Score: You {PlayerWins} - Computer {ComputerWins}");
         bool isPlaying = true;
         while (isPlaying)
         {
@@ -83,21 +84,23 @@ internal class Program
 
     static string ChooseHand()
     {
-
         Console.WriteLine("Choose A Hand");
-        Console.WriteLine("1. Rock");
-        Console.WriteLine("2. Paper");
-        Console.WriteLine("3. Scissors");
+        Console.WriteLine("1. Rock (r)");
+        Console.WriteLine("2. Paper (p)");
+        Console.WriteLine("3. Scissors (s)");
 
         string userInput = Console.ReadLine();
         // convert the user number into rock paper or scissors respectively
         switch (userInput)
         {
             case "1":
+            case "r":
                 return "Rock";
             case "2":
+            case "p":
                 return "Paper";
             case "3":
+            case "s":
                 return "Scissors";
             default:
                 Console.WriteLine("Invalid choice, please try again.");
@@ -112,7 +115,6 @@ internal class Program
         SaveData save = new(PlayerWins, ComputerWins);
         string saveData = JsonSerializer.Serialize(save);
         File.WriteAllText("saveGame.json", saveData);
-
     }
 
     static void LoadGame()
