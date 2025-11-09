@@ -12,3 +12,4 @@ C:\Learning\RockPaperScissors\obj\Debug\net9.0\refint\RockPaperScissors.dll
 C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.pdb
 C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.genruntimeconfig.cache
 C:\Learning\RockPaperScissors\obj\Debug\net9.0\ref\RockPaperScissors.dll
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.sourcelink.json
