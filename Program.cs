@@ -14,11 +14,11 @@ internal class Program
         {
             PlayRound();
             Console.WriteLine($"Score: You {PlayerWins} - Computer {ComputerWins}");
-            Console.WriteLine("Do you want to play again? (y/n)");
+            Console.WriteLine("Do you want to play again? (y/n) (default[Enter] is y)");
             string playAgain = Console.ReadLine();
             SaveGame();
 
-            if (playAgain!.ToLower() != "y")
+            if (playAgain!.ToLower() != "y" && !string.IsNullOrWhiteSpace(playAgain))
             {
                 isPlaying = false;
             }
@@ -68,8 +68,10 @@ internal class Program
                  (userHand == "Paper" && computerHand == "Rock") ||
                  (userHand == "Scissors" && computerHand == "Paper"))
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("You win!");
             PlayerWins++;
+            Console.ResetColor();
         }
         else if (userHand == computerHand)
         {
@@ -77,8 +79,10 @@ internal class Program
         }
         else
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Computer wins!");
             ComputerWins++;
+            Console.ResetColor();
         }
     }
 
