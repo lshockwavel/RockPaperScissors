@@ -1,0 +1,14 @@
+C:\Learning\RockPaperScissors\bin\Debug\net9.0\RockPaperScissors.exe
+C:\Learning\RockPaperScissors\bin\Debug\net9.0\RockPaperScissors.deps.json
+C:\Learning\RockPaperScissors\bin\Debug\net9.0\RockPaperScissors.runtimeconfig.json
+C:\Learning\RockPaperScissors\bin\Debug\net9.0\RockPaperScissors.dll
+C:\Learning\RockPaperScissors\bin\Debug\net9.0\RockPaperScissors.pdb
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.AssemblyInfoInputs.cache
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.AssemblyInfo.cs
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.dll
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\refint\RockPaperScissors.dll
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.pdb
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\RockPaperScissors.genruntimeconfig.cache
+C:\Learning\RockPaperScissors\obj\Debug\net9.0\ref\RockPaperScissors.dll
